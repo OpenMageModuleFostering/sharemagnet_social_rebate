@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sharemagnet_Social_Rebate>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Sharemagnet_Social_Rebate>
+    </modules>
+</config>

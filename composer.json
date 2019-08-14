@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Sharemagnet_Social_Rebate",
+    "type": "magento-module",
+    "license": "Artistic-License-2.0",
+    "homepage": "",
+    "description": "Turn customers’ purchases into highly credible Social Media Marketing  for your store with Social Rebate!",
+    "authors": [
+    {
+        "name": "Ben Stewart",
+        "email": "info@sharemagnet.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

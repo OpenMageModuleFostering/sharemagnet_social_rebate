@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Sharemagnet_Rebateorder
+ *
+ * This module was developed by Sharemagnet Company.  If you require any
+ * support or have any questions please contact us at alexei.liyi@gmail.com.
+ *
+ * @category   Sharemagnet
+ * @package    Sharemagnet_Rebateorder
+ * @author     Sharemagnet Company <alexei.liyi@gmail.com>
+ * @copyright  Copyright (c) 2013 Alexei
+ */
+-->
+<config>
+    <tabs>
+        <social_rebate_tab module="social_rebate" translate="label">
+            <label>Social Rebate</label>
+            <sort_order>100</sort_order>
+        </social_rebate_tab>
+    </tabs>
+    <sections>
+        <social_rebate_section module="social_rebate" translate="label">
+            <label>Social Rebate Settings</label>
+            <sort_order>200</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <tab>social_rebate_tab</tab>
+            <groups>
+                <social_rebate_group translate="label">
+                    <label>Rebate Integration Setting</label>
+                    <comment>Let's do rebate order setting here</comment>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <social_rebate_apikey translate="label tooltip comment">
+                            <label>Social Rebate API Key</label>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+
+                        </social_rebate_apikey>
+                        <social_rebate_apisecret translate="label tooltip comment">
+                            <label>Social Rebate API Secret</label>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </social_rebate_apisecret>
+                        <social_rebate_magnetkey translate="label tooltip comment">
+                            <label>Social Rebate Store Key</label>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            
+                        </social_rebate_magnetkey>
+                    </fields>
+                </social_rebate_group>
+            </groups>
+        </social_rebate_section>
+    </sections>
+</config>
