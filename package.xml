@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Sharemagnet_Social_Rebate</name>
-    <version>1.0.0</version>
+    <version>1.0.7</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/artistic-license-2.0">Artistic License 2.0</license>
     <channel>community</channel>
     <extends/>
-    <summary>Turn customers&#x2019; purchases into highly credible Social Media Marketing  for your store with Social Rebate!</summary>
+    <summary>Turn customers purchases into highly credible Social Media Marketing  for your store with Social Rebate!</summary>
     <description>Social Rebate provides a comprehensive Social Commerce platform for online retailers to help increase social sharing and customer referrals from Social Media to their eCommerce stores.</description>
-    <notes>This is first stable version.</notes>
+    <notes>This is beta version.</notes>
     <authors><author><name>Ben Stewart</name><user>SocialRebate</user><email>info@sharemagnet.com</email></author></authors>
-    <date>2013-04-10</date>
-    <time>18:23:18</time>
-    <contents><target name="magecommunity"><dir name="Sharemagnet"><dir name="Social"><dir name="Rebate"><dir><dir name="Block"><file name="Rebateorder.php" hash="894088ccc6bf24d5d3221666b9484c63"/></dir><dir name="Helper"><file name="Data.php" hash="eb8159561687773312ad8b668b4739ee"/></dir><dir name="Model"><file name="Observer.php" hash="d78e6b30b8dd4e612e9453afed917a37"/><file name="Order.php" hash="550719d07eb7ac7482067aaad07b7b2a"/></dir><dir name="etc"><file name="config.xml" hash="810c87942360b4b1d440657fee091652"/><file name="system.xml" hash="e0b332415bc1279c72cfbfec7f67f880"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="sharemagnet"><dir name="social"><file name="rebate.xml" hash="18aeacd2950d493fde5042326944d98e"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sharemagnet_Social_Rebate.xml" hash="ddd29c70265716206160515bc8f980f0"/></dir></target></contents>
+    <date>2013-04-24</date>
+    <time>03:31:01</time>
+    <contents><target name="magecommunity"><dir name="Sharemagnet"><dir name="Social"><dir name="Rebate"><dir name="Block"><file name="Rebateorder.php" hash="894088ccc6bf24d5d3221666b9484c63"/></dir><dir name="Helper"><file name="Data.php" hash="eb8159561687773312ad8b668b4739ee"/></dir><dir name="Model"><file name="Observer.php" hash="d8c96bdae67f28aa08394dac920be678"/><file name="Order.php" hash="49961a5f4997415fb8e3272880ffb0cd"/></dir><dir name="etc"><file name="config.xml" hash="810c87942360b4b1d440657fee091652"/><file name="system.xml" hash="805f09f45dfd5da1e808b80e86a07967"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="sharemagnet"><dir name="social"><file name="rebate.xml" hash="18aeacd2950d493fde5042326944d98e"/></dir></dir></dir><dir name="template"><dir name="sharemagnet"><dir name="social"><file name="rebate.phtml" hash="336dfd41c67b36a038d4e04ec84ed3d0"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sharemagnet_Social_Rebate.xml" hash="ddd29c70265716206160515bc8f980f0"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.5</min><max>1.7</max></package></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

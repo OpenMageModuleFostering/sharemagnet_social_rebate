@@ -5,7 +5,7 @@
         *   
         *   Resource name: rebate_session_order
             Request method: PUT
-            Endpoint URL: http://stg.sharemagnet.com/rest/v1/social-rebates/rebate_session_order/<order_id>/
+            Endpoint URL: http://sharemagnet.com/rest/v1/social-rebates/rebate_session_order/<order_id>/
             GET params:
 
             api_key = ‘c7c43d18154e8fa317f0d0b8ae76d321f97fd221’
@@ -32,8 +32,7 @@
              {
                  $client1 =new Zend_Http_Client();
                    
-                 // $UrI=$this->_requestSharemagnetApiUrl.$orderId."/";
-                 // $client1->setConfig(array('adapter'=> 'Zend_Http_Client_Adapter_Curl'));
+                 
                  $client1->setUri($this->_verifySharemagnetApiUrl.$this->getId().'/?api_key='.$restApiKey.'&api_secret='.$restApiSecret.'&magnet_key='.$restApiMagnet.'&backend=magento');
                  
                                   

@@ -1,15 +1,15 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <!--
 /**
  * Sharemagnet_Rebateorder
  *
  * This module was developed by Sharemagnet Company.  If you require any
- * support or have any questions please contact us at alexei.liyi@gmail.com.
+ * support or have any questions please contact us at info@sharemagnet.com.
  *
  * @category   Sharemagnet
- * @package    Sharemagnet_Rebateorder
- * @author     Sharemagnet Company <alexei.liyi@gmail.com>
- * @copyright  Copyright (c) 2013 Alexei
+ * @package    Sharemagnet_Social_Rebate
+ * @author     Sharemagnet Company <nfo@sharemagnet.com>
+ * @copyright  Copyright (c) 2013 Share Magnet, LLC
  */
 -->
 <config>
@@ -30,7 +30,17 @@
             <groups>
                 <social_rebate_group translate="label">
                     <label>Rebate Integration Setting</label>
-                    <comment>Let's do rebate order setting here</comment>
+                    <comment><![CDATA[<h3>NEW USERS</h3>
+<p> 1. To create and manage your social rebates, you will need to login to the social rebate application manager. If you have not already created your free Social Rebate account <a href="http://socialrebate.net/account/signup/?source=integration&platform=magento" target="_blank">click here.</a></p>
+<p>2. Check your email to confirm your Social Rebate account.</p>
+<p>3. You will be guided through the steps of completing your Magento store integration. When you reach the final step, copy/paste the API KEY, API SECRET and STORE KEY into the form on this page below.</p>
+<br/>
+<h3>EXISTING USERS</h3>
+<p>If your have already filled in the form below you are done! You can manage the Social Rebate that is integrated into your store at socialrebate.net. Simply select your store name from the "My Stores" area of the dashboard and click "Click here to integrate a different rebate into this store"</p>
+<p>If you have not already filled in the form below:</p>
+<p>1. please sign into <a href="http://socialrebate.net/" target="_blank">Social Rebate</a>, and click ‘add a new store’.</p>
+<p>2. Select "Magento" from the "Select a platform" page and follow the prompts.</p>
+<p>3. Copy/Paste the API KEY, API SECRET and STORE KEY from your store overview page into the form below.</p>]]></comment>
                     <sort_order>10</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>

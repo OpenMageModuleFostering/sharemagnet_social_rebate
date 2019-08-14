@@ -5,7 +5,7 @@ class Sharemagnet_Social_Rebate_Model_Observer
     /*
         Resource name: rebate_session
         Request method: POST
-        Endpoint URL: http://stg.sharemagnet.com/rest/v1/social-rebates/rebate_session/
+        Endpoint URL: http://sharemagnet.com/rest/v1/social-rebates/rebate_session/
         Mime type: application/json
     */
     protected $_initSharemagnetApiUrl = 'http://sharemagnet.com/rest/v1/social-rebates/rebate_session/';
@@ -13,7 +13,7 @@ class Sharemagnet_Social_Rebate_Model_Observer
     /*
         Resource name: rebate_session
         Request method: GET
-        Endpoint URL: http://stg.sharemagnet.com/rest/v1/social-rebates/rebate_session/<id>/
+        Endpoint URL: http://sharemagnet.com/rest/v1/social-rebates/rebate_session/<id>/
         GET params:
 
         magnet_key = ‘538441DA’
@@ -24,7 +24,7 @@ class Sharemagnet_Social_Rebate_Model_Observer
     *   
     *   Resource name: rebate_session_order
         Request method: PUT
-        Endpoint URL: http://stg.sharemagnet.com/rest/v1/social-rebates/rebate_session_order/<order_id>/
+        Endpoint URL: http://sharemagnet.com/rest/v1/social-rebates/rebate_session_order/<order_id>/
         GET params:
 
         api_key = ‘c7c43d18154e8fa317f0d0b8ae76d321f97fd221’
@@ -64,12 +64,10 @@ class Sharemagnet_Social_Rebate_Model_Observer
                 $call_integration_url=$response->getHeader("Location")."?magnet_key=".$restApiMagnet."&format=json";
                 if ($response->getStatus()==201 && $response->getMessage()=="CREATED")
                 {
-                    // $s = file_get_contents('http://stg.sharemagnet.com/rest/v1/social-rebates/rebate_session/1591/?magnet_key=538441DA&format=json');
+
                     //get existing api session 
                      $client1 =new Zend_Http_Client();
                    
-                   // $UrI=$this->_requestSharemagnetApiUrl.$orderId."/";
-                   // $client1->setConfig(array('adapter'=> 'Zend_Http_Client_Adapter_Curl'));
                     $client1->setUri($response->getHeader("Location"));
                     $client1->setParameterGet(array('magnet_key'=>$restApiMagnet,'format'=>'json'));
                     
