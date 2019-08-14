@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <checkout_onepage_success>
-        <remove name="checkout.success" />
         <reference name="content">
             <block type="social_rebate/rebateorder" name="sharemagnet.social_rebate" template="sharemagnet/social/rebate.phtml"/>
         </reference>
