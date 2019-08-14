@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Sharemagnet_Social_Rebate</name>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/artistic-license-2.0">Artistic License 2.0</license>
     <channel>community</channel>
